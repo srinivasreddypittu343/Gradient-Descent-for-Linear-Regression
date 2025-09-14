@@ -66,4 +66,5 @@ Implement Linear Regression from scratch using both the **Normal Equation** and 
 
 ### 📝 Short Explanation
 
-The parameters obtained from both methods were essentially the same — **Closed-Form:** Intercept = 2.8452, Slope = 4.0456; **Gradient Descent:** Intercept = 2.8452, Slope = 4.0456. This demonstrates that Gradient Descent converged to the same optimal values as the Normal Equation, confirming that both approaches minimize the same convex MSE cost function.
+Gradient Descent converges to the same parameters as the closed‑form method; the fitted lines overlap visually.
+The MSE curve decreases smoothly and plateaus, indicating stable convergence with (Teta=0.05) over 1000 iterations.
